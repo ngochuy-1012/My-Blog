@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Add block - Task 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">My Block</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Add Blog <span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Add Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-primary mr-sm-2" href="#" role="button">Login</a>
+          <a class="btn btn-primary mr-sm-2" href="#" role="button">Register</a>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div  class="container p-4">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Category</th>
+            <th scope="col">Date</th>
+            <th scope="col">Action </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>@mdo</td>
+            <td><a href=""class="btn btn-primary">Update</a>
+              <a href=""class="btn btn-danger">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>@fat</td>
+            <td><a href=""class="btn btn-primary">Update</a>
+              <a href=""class="btn btn-danger">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>@twitter</td>
+            <td><a href=""class="btn btn-primary">Update</a>
+              <a href=""class="btn btn-danger">Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="container">
+      <h3 style="color: rgba(0, 0, 0, 0.623);"><em>Add(Update) Form</em></h3>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="selectCateogry">Select Category</label>
+          <select class="form-control">
+            <option>Live</option>
+            <option>Love</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="title">Title</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="exampleFormControlTextarea1">Post</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Hot</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Active</label>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <button style="width: 100%;" type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <p class="float-right">
+            <a style="color: rgba(0, 47, 255, 0.959)" href="#">Back to top</a>
+          </p>
+          <p>
+            &copy; 2017-2018 Company, Inc. &middot;
+            <a style="color: rgba(0, 47, 255, 0.959)" href="#">Privacy</a>
+            &middot;
+            <a style="color: rgba(0, 47, 255, 0.959)" href="#">Terms</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

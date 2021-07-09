@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <link rel="stylesheet" href="resource/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="resource/css/carousel.css" />
+    <link rel="stylesheet" href="resource/css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Block</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addblog.html">Add Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Add Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-primary mr-sm-2" href="#" role="button">Login</a>
+          <a class="btn btn-primary mr-sm-2" href="#" role="button">Register</a>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-caption d-none d-md-block text-md-right">
+          <h1>One more for good measure.</h1>
+          <p>
+            Cras justo odio, dapibus ac facilisis in,egestas eget quam. Donec id
+            elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+            ultricies vehicula ut id elit.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg">
+            Brower gallery
+          </button>
+        </div>
+        <div class="carousel-item active" data-interval="1000">
+          <img
+            class="d-block w-100"
+            src="resource/img/1.jpeg"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item" data-interval="1000">
+          <img
+            class="d-block w-100"
+            src="resource/img/2.jpeg"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item" data-interval="1000">
+          <img
+            class="d-block w-100"
+            src="resource/img/3.jpeg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <!--Grid column-->
+        <div class="col-4 mb-4">
+          <img
+            class="rounded-circle"
+            alt="50x50"
+            style="width: 40%"
+            src="resource/img/4.jpg"
+            data-holder-rendered="true"
+          />
+          <h2>Heading</h2>
+          <p style="color: black" class="text-center">
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
+            risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+            cursus magna.
+          </p>
+        </div>
+
+        <div class="col-4 mb-4">
+          <img
+            class="rounded-circle"
+            alt="50x50"
+            style="width: 40%"
+            src="resource/img/4.jpg"
+            data-holder-rendered="true"
+          />
+          <h2>Heading</h2>
+          <p style="color: black" class="text-sm-center">
+            Duis mollis est non commodo luctus nisi erat porttitor ligula, eget
+            lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
+            fermentum. Fusce dapibus, tellus ac cursus commodo tortor mauris
+            condimentum nibh.
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-4 mb-1">
+          <img
+            class="rounded-circle z-depth-2"
+            alt="100x100"
+            style="width: 40%"
+            src="resource/img/4.jpg"
+            data-holder-rendered="true"
+          />
+          <h2>Heading</h2>
+          <p style="color: black" class="text-center mb-lg-0">
+            Donec sed odio dui. Crasjusto odio, dapibus ac facilisis in, egestas
+            eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+            dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+            ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <!--Grid column-->
+      </div>
+      <div class="row text-center mb-lg-5">
+        <div class="col-4 mb-3">
+          <button type="button" class="btn btn-secondary">
+            View detail &#187;
+          </button>
+        </div>
+        <div class="col-4 mb-4">
+          <button type="button" class="btn btn-secondary">
+            View detail &#187;
+          </button>
+        </div>
+        <div class="col-4 mb-4">
+          <button type="button" class="btn btn-secondary">
+            View detail &#187;
+          </button>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-left mt-lg-5 p-4">
+            <h1>
+              <span>First featurette heading. </span>
+              <span style="color: rgba(0, 0, 0, 0.61)"
+                >It'll blow your mind.</span
+              >
+            </h1>
+            <p style="color: black">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 mr-0 p-0 mb-lg-5">
+          <img
+            class="m-0"
+            src="resource/img/4.jpg"
+            alt="about photo"
+            style="width: 90%"
+          />
+        </div>
+      </div>
+      <hr />
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-4 mr-0 p-0 mb-lg-5">
+          <img
+            class="m-0"
+            src="resource/img/4.jpg"
+            alt="about photo"
+            style="width: 90%"
+          />
+        </div>
+        <div class="col-8">
+          <div class="text-left mt-lg-5 p-4">
+            <h1>
+              Oh yeah, it's that good.
+              <span style="color: rgba(0, 0, 0, 0.61)">See for yourself.</span>
+            </h1>
+            <p style="color: black">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-left mt-lg-5 p-4">
+            <h1>
+              And lastly, this one. <br />
+              <span style="color: rgba(0, 0, 0, 0.61)">Checkmate.</span>
+            </h1>
+            <p style="color: black">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 mr-0 p-0 mb-lg-5">
+          <img
+            class="m-0"
+            src="resource/img/4.jpg"
+            alt="about photo"
+            style="width: 90%"
+          />
+        </div>
+      </div>
+      <hr />
+    </div>
+    <footer class="container p-5">
+      <div style="color: black">
+        <p class="float-right">
+          <a style="color: rgba(0, 47, 255, 0.959)" href="#">Back to top</a>
+        </p>
+        <p>
+          &copy; 2017-2018 Company, Inc. &middot;
+          <a style="color: rgba(0, 47, 255, 0.959)" href="#">Privacy</a>
+          &middot;
+          <a style="color: rgba(0, 47, 255, 0.959)" href="#">Terms</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <script src="resource/js/bootstrap.min.js"></script>
+  <script src="resource/js/holder.min.js"></script>
+  <script src="resource/js/popper.min.js"></script> -->
+</html>
